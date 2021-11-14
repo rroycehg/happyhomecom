@@ -2,7 +2,46 @@
   text-align: center;
 }
 
-.top-logo {
-  height: 10em;
+.header {
+  overflow: hidden;
+  background-color:wheat;
+}
 
+.top-logo {
+  height: 7em;
+  float: left;
+}
+
+ .header p{
+  font-size: 60px;
+  margin: 0px;
+  padding-top: 20px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+  background-color: black;
+  color: wheat;
+  
+}
+
+ul {
+ 
+  text-align: center; 
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  overflow: hidden;
+  margin-right: 100px;
+}
+
+li {
+  display: block;
+  font-size: 20px;
+  padding: 20px 50px 20px 50px;
+  float: right;
+}
+
+li:hover {
+  background-color: rgb(58, 58, 58);
 }

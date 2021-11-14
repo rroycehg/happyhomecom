@@ -1,10 +1,10 @@
-import logo from "./haphomelogo.jpg";
+import logo from "./haphomelogo1.jpg";
 
 function Header() {
   return (
-    <div>
+    <div className="header">
       <img className="top-logo" src={logo} alt="toppagelogo" />
-      <h1>Welcome to Happy Home Companionship!</h1>
+      <p>Welcome to Happy Home Companionship!</p>
     </div>
   );
 }
