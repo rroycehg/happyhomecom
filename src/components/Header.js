@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="header">
       <img className="top-logo" src={logo} alt="toppagelogo" />
-      <p>Happy Home Companionship</p>
+      <p>Start of a New APP</p>
     </div>
   );
 }
